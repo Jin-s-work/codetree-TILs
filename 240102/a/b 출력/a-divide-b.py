@@ -3,6 +3,7 @@ a, b = map(int, input().split())
 print(f"{a//b}.", end = "")
 
 a %= b
+# 한번 미리 해야 함 나누어떨어지는 경우도 있으니
 
 for _ in range(20):
     a *= 10
