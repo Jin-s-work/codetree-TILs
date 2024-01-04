@@ -13,3 +13,4 @@ for i in range(n):
             print(cnt, end = " ")
             cnt += 2
         print()
+        cnt -= 1
