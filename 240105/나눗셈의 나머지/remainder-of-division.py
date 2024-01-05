@@ -1,5 +1,5 @@
 a, b = map(int, input().split())
-arr = [0] * 11
+arr = [0] * 12
 s = 0
 while a > 1:
     arr[((a % b) * (a % b))] += 1
