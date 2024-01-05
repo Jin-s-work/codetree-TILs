@@ -14,3 +14,4 @@ for _ in range(q):
     else:
         for i in range(int(quest[1]), int(quest[2])+1):
             print(arr[i-1], end = " ")
+        print()
