@@ -17,4 +17,4 @@ for i in range(len(arr[0])):
     ans.append(s)
 print()
 
-print(f"{sum(ans) // (len(arr) * len(arr[0])):.1f}")
+print(f"{sum(ans) / (len(arr) * len(arr[0])):.1f}")
