@@ -2,11 +2,10 @@ n = int(input())
 
 arr = list(map(int, input().split()))
 
-Max = -1
 
-arr2 = []
 while True:
     idx = 0
+    Max = -1
     for i in range(len(arr)):
         if arr[i] > Max:
             Max = arr[i]
