@@ -33,5 +33,5 @@ else:
 
 print(x, y, z, w, end = " ")
 
-if a >= 2:
+if x >= 2:
     print("E")
