@@ -1,3 +1,6 @@
 a = input()
 
-print(chr(ord(a) + 1))
+if a == 'z':
+    print(a)
+else:
+    print(chr(ord(a) + 1))
