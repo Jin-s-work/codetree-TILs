@@ -2,7 +2,7 @@ st = input()
 n = int(input())
 
 if n > len(st):
-    print(st)
+    print(st[::-1])
 else:
     print(st[-n:][::-1])
 
